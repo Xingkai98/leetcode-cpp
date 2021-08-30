@@ -30,9 +30,9 @@ public:
             if(val != nums[fastIndex]){
                 nums[slowIndex] = nums[fastIndex];
                 slowIndex++;
-                // 每次快指针向前
-                // 不等于val，快指针指向的数覆盖慢指针指向的数，快慢指针都向前
+                // 每次进行判断
                 // 等于val，慢指针不动，快指针向前
+                // 不等于val，快指针指向的数覆盖慢指针指向的数，快慢指针都向前
             }
         }
         return slowIndex;
