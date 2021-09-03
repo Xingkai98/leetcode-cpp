@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 include_directories(include)
-add_executable(leetcode src/array/209-minimum-size-subarray-sum.cpp)
+add_executable(leetcode src/array/59-spiral-matrix-ii.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
