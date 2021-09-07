@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 include_directories(include)
-add_executable(leetcode src/array/59-spiral-matrix-ii.cpp)
+add_executable(leetcode src/array/54-spiral-matrix.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

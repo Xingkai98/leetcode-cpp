@@ -5,6 +5,7 @@ using namespace std;
 
 // 思路是转圈，每圈走四趟，走一趟换一次方向，走完一圈后移动到下一圈的开始位置
 // 奇数时的中心情况单独处理
+// 注意，这道题转圈的思路只适用于正方形矩阵
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
