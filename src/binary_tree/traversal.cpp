@@ -55,3 +55,8 @@ void Traversal::test(){
     cout << endl;
     vec.clear();
 }
+
+int main(){
+    Traversal tra;
+    tra.test();
+}
