@@ -3,7 +3,8 @@
 #include <unordered_map>
 using namespace std;
 
-//滑动窗口，用hashmap存储t各字符的个数和当前i-j子串中各字符的个数
+// 76.最小覆盖子串
+// 滑动窗口，用hashmap存储t各字符的个数和当前i-j子串中各字符的个数
 class Solution {
 public:
     unordered_map<char, int> basket, count;

@@ -1,5 +1,6 @@
 #include <iostream>
 
+// 707.设计链表
 class MyLinkedList {
 public:
     struct LinkedNode{

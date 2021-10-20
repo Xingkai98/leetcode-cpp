@@ -3,7 +3,8 @@
 #include <vector>
 using namespace std;
 
-//左闭右闭的写法
+// 704.二分查找
+// 左闭右闭的写法
 class SolutionA{
     public:
         int search(vector<int>& nums, int target) {

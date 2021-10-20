@@ -4,8 +4,9 @@ project(cppstudy VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-include_directories(include/binary-tree)
-add_executable(leetcode src/linked-list/707-design-linked-list.cpp)
+include_directories(include/binaryTree)
+include_directories(include/linkedList)
+add_executable(leetcode src/linkedList/203.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

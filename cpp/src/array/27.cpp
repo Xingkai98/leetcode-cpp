@@ -1,9 +1,9 @@
-//删除元素（双指针法）
 #include <iostream>
 #include <vector>
 using namespace std;
 
-// 遍历
+// 27.删除元素
+// 遍历法
 class SolutionA{
 public:
     int removeElement(vector<int>& nums, int val) {
