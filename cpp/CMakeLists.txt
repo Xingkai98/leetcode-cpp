@@ -6,7 +6,9 @@ enable_testing()
 
 include_directories(include/binaryTree)
 include_directories(include/linkedList)
-add_executable(leetcode src/linkedList/203.cpp)
+
+# 添加需要编译的文件
+#add_executable(leetcode src/linkedList/707.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
